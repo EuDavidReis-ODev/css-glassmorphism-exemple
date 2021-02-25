@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+body{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(to right,#55439E,#952FFF);
+}
+.main-container {
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/fundo_elipse.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#image-left-top{
+    width: 290.25px;
+    height: 267.16px;    
+    position: absolute;
+    top: -100px;
+    left: -30px;
+}
+
+#image-left-bottom{
+    width: 284px;
+    height: 284px;
+    position: absolute;
+    left: 20px;
+    bottom: 5px;
+
+}
+
+#image-right{
+    position: absolute;
+    width: 550px;
+    height: 610px;
+    right: 0px;
+    top: 30px;
+}
+
+.info{
+    width: 100%;
+    max-width: 1117px;
+    z-index: 9;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info_title {
+    width: 480px;
+}
+
+.info_title h1{
+    width: 431px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 60px;
+    text-transform: capitalize;
+    color: white;
+    font-family: Lato,sans-serif;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.info_title p{
+    width: 383px;
+    height: 64px;
+    color: white;
+    font-family:OpenSans, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 32px;
+    margin-top: 0;
+    margin-bottom: 60px;
+}
+
+.info_submit{
+    width: 100%;
+    position: relative;
+}
+
+.info_submit input {
+    width: 100%;
+    height: 80px;
+    border-radius: 10px;
+    outline: none;
+    color: white;
+    font-style: normal;
+    font-weight: normal;
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    background:rgba(255, 255, 255,0.15);
+    backdrop-filter: blur(10px);
+    padding-left: 30px;
+    font-family: Lato,sans-serif;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.info_submit input::placeholder {
+    width: 75px;
+    height: 16px;
+    font-family: Lato,sans-serif;
+    font-size: 16px;
+    line-height: 16px;
+    font-style: normal;
+    font-weight: normal;
+    color: #CDBFD8;
+    left: 30px;
+    top: 32px;
+}
+
+.info_submit button {
+    width: 120px;
+    height: 60px;
+    border-radius: 6px;
+    background-color: #4F3AA7;
+    font-family: Lato,sans-serif;
+    text-transform: uppercase;
+    color: white;
+    font-size: 16px;
+    line-height: 16px;
+    font-style: bold;
+    outline: none;
+    border: none;
+    position: absolute;
+    top: 12px;
+    right: -20px;
+    text-align: center;
+}
+
+.info_card .card{
+    width: 500px;
+    height: 300px;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    position: relative;
+    padding: 40px 50px;
+    box-sizing: border-box;
+}
+.info_card .card::before{
+    content: "";
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-right: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    box-sizing: border-box;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.info_card .card::after{
+    content: "";
+    border: 2px solid rgba(255, 255, 255, 0.35);
+    border-left: none;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    box-sizing: border-box;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.card_title h2{
+    font-family: Lato,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 46px;
+}
+
+.card_chip{
+    margin-bottom: 45px;
+}
+
+.card_chip img{
+    width: 60px;
+    height: 43px;
+}
+
+.card_footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card_footer div:nth-child(2){
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.card_footer p{
+    font-family: Lato,sans-serif;
+    color:white;
+    font-style: normal;
+    font-weight: normal;
+    margin: 0;
+}
+
+.card_footer_info p:first-child{
+    margin-bottom: 8px;
+}
+
+.footer-text {
+    font-family: Lato,sans-serif;
+    color:white;
+    font-style: normal;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-size: 16px;
+    line-height: 18px;
+}
+.footer-text--big {
+    letter-spacing: 0.07em;
+    font-size: 20px;
+    line-height: 30px;
+}
+
