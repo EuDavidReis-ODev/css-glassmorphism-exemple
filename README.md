@@ -5,7 +5,7 @@ Este projeto é um exemplo de glassmorphism, uma técnica de design que simula o
 
 ### Imagem ilustrativa
 
-![](/home/megatron/Área de Trabalho/Captura de tela em 2021-02-25 17-43-45.png)
+![](./images/captura-de-tela.png)
 
 
 
